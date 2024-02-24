@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(238, 234, 234, 0.701);
+}
+
+.heroSection{
+    font-family: Karla;
+    width: 600px;
+    box-shadow: 1px 1px 5px rgb(68, 68, 68);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container1{
+    padding-top: 5px;
+    margin: 30px;
+    width: 90%;
+    background-color: white;
+}
+
+.joinHeading{
+    color: rgb(1, 158, 158);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.subHeading{
+    color: rgb(121, 173, 43);
+    margin-bottom: 10px;
+}
+
+.para1{
+    color: rgb(156, 155, 155);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.containerWrapper{
+    display: flex;
+}
+
+.container2, .container3{
+    width: 50%;
+    padding: 30px;
+    color: white;
+}
+
+.container2{
+    background-color: rgb(1, 158, 158);
+    border-radius: 0px 0px 0px 10px;
+}
+
+.priceSection{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.perMonth{
+    margin-left: 10px;
+    color: rgb(204, 200, 200);
+}
+
+.signUp{
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgb(154, 220, 54);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0.5px 5px rgb(0 0 0 / 0.3);
+}
+
+.container3{
+    background-color: rgba(1, 158, 158, 0.725);
+    border-radius: 0px 0px 10px 0px;
+}
+
+.aboutHeading{
+    margin-bottom: 10px;
+}
+
+.list{
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+@media(max-width:600px){
+    .heroSection{
+        width: 90%;
+        margin: 20px;
+    }
+
+    .containerWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2, .container3{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .container3{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
